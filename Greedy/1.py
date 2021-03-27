@@ -16,11 +16,12 @@ max_2 = max(li)
 
 while m > 0:
     for i in range(0,k):
+        if m==0:
+            break
         count += max_1
         m -= 1
-        print(count, m)
-        if m<=0:
-            break
+    if m==0:
+        break
     count += max_2
     m -= 1
 
