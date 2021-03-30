@@ -3,8 +3,12 @@ count = 0
 
 while n!=1:
     if(n%k != 0):
-        count += n%k
-        n -= n%k
+        if n < k:
+            count += (n%k - 1)
+            n -=(n%k - 1)
+        else:
+            count += n%k
+            n -= n%k
     if n == 1:
         break
     n //= k
