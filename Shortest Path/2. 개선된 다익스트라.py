@@ -1,3 +1,4 @@
+# 힙 자료구조를 이용하는 다익스트라 알고리즘 시간 복잡도는 O(ElogV)
 import heapq
 import sys
 input = sys.stdin.readline
