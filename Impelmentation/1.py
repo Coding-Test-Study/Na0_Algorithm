@@ -18,3 +18,21 @@ for i in plan:
         y = n_y
 
 print(x, y)
+
+"""
+n = int(input())
+m = list(input().split())
+
+graph = [[0]*(n+1) for _ in range(n+1)]
+d = {'L':(0,-1), 'R':(0,1), 'U':(-1, 0), 'D':(1, 0)}
+
+x, y = 1, 1
+
+for a in m:
+    nx, ny = x + d[a][0], y + d[a][1]
+    
+    if 1<=nx<=n and 1<=ny<=n:
+        x, y = nx, ny
+
+print(x, y)
+"""
