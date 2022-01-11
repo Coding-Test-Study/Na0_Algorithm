@@ -17,3 +17,23 @@ for i in range(0,n+1):
                         count += 1
 
 print(count)
+
+"""
+n = int(input())
+ans = 0
+
+for a in range(n+1):
+    if "3" in str(a):
+        ans += 60*60
+        continue
+        
+    for b in range(60):
+        if "3" in str(b):
+            ans += 60
+            continue
+        for c in range(60):
+            if "3" in str(c):
+                ans += 1
+
+print(ans)
+"""
